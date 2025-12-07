@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.flaskenv
+.env
+
+# Local database (if generated later)
+db/*.db
+*.sqlite3
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
