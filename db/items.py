@@ -5,7 +5,7 @@ class ItemDatabase():
         self.conn = mysql.connector.connect(
                     host="localhost",
                     user="root",
-                    password="0808",
+                    password="MYSQL_PASSWORD",
                     database="cafe_management_system" 
                 )
         self.cursor = self.conn.cursor()
